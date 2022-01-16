@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.container {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.banner-section {
+    margin-top: 40px;
+}
+
+.banner-section .title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner-section .banner-list {
+    display: grid;
+    gap: 16px;
+    place-items: center;
+    margin-top: 32px;
+}
+
+.banner-section .banner-list .banner-item {
+    max-width: 560px;
+}
