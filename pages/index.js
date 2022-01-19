@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import christmasSaleImg from '../public/images/christmas-sale.png'
+import winterTrainingImg from '../public/images/winter-training.png'
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
               <div className={styles['banner-list']}>
                   <div className={styles['banner-item']}>
                       <Image src={christmasSaleImg} alt={'バナー'} width={560} height={315} />
+                  </div>
+                  <div className={styles['banner-item']}>
+                      <Image src={winterTrainingImg} alt={'バナー'} width={560} height={315} />
                   </div>
               </div>
           </section>
