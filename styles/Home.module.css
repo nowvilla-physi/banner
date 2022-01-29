@@ -17,9 +17,17 @@
 
 .banner-section .banner-list {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
     gap: 16px;
     place-items: center;
     margin-top: 32px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .banner-section .banner-list {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
 }
 
 .banner-section .banner-list .banner-item {
