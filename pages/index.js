@@ -6,6 +6,7 @@ import winterTrainingImg from '../public/images/winter-training.png'
 import movingImg from '../public/images/moving.png'
 import hamburgerImg from '../public/images/hamburger.png'
 import sneakerImg from '../public/images/sneaker.png'
+import halloweenImg from '../public/images/halloween.png'
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
                   </div>
                   <div className={styles['banner-item']}>
                       <Image src={sneakerImg} alt={'バナー'} width={560} height={315} />
+                  </div>
+                  <div className={styles['banner-item']}>
+                      <Image src={halloweenImg} alt={'バナー'} width={560} height={315} />
                   </div>
               </div>
           </section>
